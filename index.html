@@ -19,15 +19,19 @@
   </header>
 
   <section class="hero">
-    <video autoplay muted loop class="background-video">
-      <source src="background.mp4" type="video/mp4">
-      Tu navegador no permite la reproducción de video.
-    </video>
-    <div class="hero-content">
-      <h2>Hola, somos Lessly y Omar</h2>
-      <p>Creamos filmacciones atemporales de parejas emocionantes.</p>
-      <a href="projects.html" class="cta">Ver trabajos</a>
-    </div>
+      <div class="video-wrapper">
+          <video autoplay muted loop playsinline preload="auto"
+                 poster="images/hero-fallback.jpg"
+                 id="hero-video">
+              <source src="videos/background.mp4" type="video/mp4">
+              Tu navegador no permite la reproducción de video.
+          </video>
+      </div>
+      <div class="hero-content">
+          <h2>Hola, somos Lessly y Omar</h2>
+          <p>Creamos filmacciones atemporales de parejas emocionantes.</p>
+          <a href="projects.html" class="cta">Ver trabajos</a>
+      </div>
   </section>
 
   <footer id="contact">
