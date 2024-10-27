@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filmaciones L&O | Contacto</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1 class="logo">Filmaciones L&O</h1>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="projects.html">Proyectos</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="contact">
+    <h3>Gracias por tu interés en convertirte en una de nuestras especiales parejas.</h3>
+    <p class="instructions">
+      En Filmaciones L&O nos emociona ofrecer Audiovisuales de calidad para parejas listas a celebrar su unión con sus seres amados. 
+      Por favor, llena el formato de abajo y estaremos en contacto contigo en los próximos 2 días hábiles con mayor información.
+    </p>
+
+    <form action="#" method="POST" class="contact-form">
+      <label for="tu-nombre">Tu Nombre:</label>
+      <input type="text" id="tu-nombre" name="tu-nombre" required>
+
+      <label for="nombre-pareja">Nombre de tu pareja (si aplica):</label>
+      <input type="text" id="nombre-pareja" name="nombre-pareja" placeholder="Opcional">
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="relacion">Relación con la pareja:</label>
+      <select id="relacion" name="relacion" required>
+        <option value="Novia">Novia</option>
+        <option value="Novio">Novio</option>
+        <option value="Planner">Planner</option>
+        <option value="Madre/Padre de la Novia">Madre/Padre de la Novia</option>
+        <option value="Madre/Padre del Novio">Madre/Padre del Novio</option>
+        <option value="Otro">Otro</option>
+      </select>
+
+      <label for="fecha-boda">Fecha de la boda (si se conoce):</label>
+      <input type="date" id="fecha-boda" name="fecha-boda">
+
+      <label for="locacion-boda">Locación de la boda:</label>
+      <input type="text" id="locacion-boda" name="locacion-boda">
+
+      <label for="presupuesto">Presupuesto para la Filmación del evento:</label>
+      <select id="presupuesto" name="presupuesto" required>
+        <option value="6000-10000">$6000 - $10000</option>
+        <option value="10000-15000">$10000 - $15000</option>
+        <option value="15000-20000+">$15000 - $20000+</option>
+      </select>
+
+      <label for="mensaje">Cuéntanos más acerca de ti y de la boda que estás planeando:</label>
+      <textarea id="mensaje" name="mensaje" rows="5" placeholder="Comparte detalles sobre la boda que sueñas..."></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Contáctanos: <a href="mailto:delacomar@hotmail.com">delacomar@hotmail.com</a></p>
+    <p>&copy; 2024 Filmaciones L&O. Todos los Derechos Reservados.</p>
+  </footer>
+</body>
+</html>
