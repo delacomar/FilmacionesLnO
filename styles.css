@@ -147,6 +147,16 @@ header {
   text-decoration: underline;
 }
 
+.project-item img {
+    width: 320px; /* Fixed width for uniform look */
+    height: 180px; /* Maintain 16:9 aspect ratio */
+    object-fit: cover; /* Ensure images fit nicely */
+    border-radius: 10px;
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+
 /* Contact Section */
 .contact {
   padding: 150px 20px 50px; /* Add space at the top to clear the header */
