@@ -44,7 +44,7 @@ header {
 .hero {
     position: relative;
     height: 100vh;
-    overflow: hidden;
+    overflow: visible;
     display: flex;
     align-items: center; /* Vertically centers the content */
     justify-content: center; /* Horizontally centers the content */
@@ -92,6 +92,8 @@ header {
 .cta-button {
     background-color: #80cbc4;
     color: #1f1f1f;
+    visibility: visible;
+    opacity: 1;
     padding: 15px 30px;
     text-decoration: none;
     border-radius: 5px;
