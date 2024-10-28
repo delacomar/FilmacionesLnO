@@ -198,6 +198,12 @@ header {
         text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
     }
 
+@media (max-width: 100%) {
+    .hero-contact {
+        height: 200px; /* Smaller height for mobile */
+    }
+}
+
 .contact h2 {
   font-size: 36px;
   margin-bottom: 10px;
