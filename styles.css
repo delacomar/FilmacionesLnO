@@ -111,7 +111,7 @@ header {
 
 /* Projects Container */
 .projects-container {
-    padding: 100px 20px; /* Adds padding to avoid overlap with header */
+    padding: 150px 20px 50px; /* Adds padding to avoid overlap with header */
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -125,10 +125,10 @@ header {
 
 /* Project Card Styles */
 .project {
-    padding: 150px 20px 50px; /* Add space at the top to clear the header */
     display: flex;
     align-items: center;
     background-color: #1f1f1f;
+    margin-bottom: 30px;
     border-radius: 10px;
     overflow: hidden;
 }
