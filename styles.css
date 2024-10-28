@@ -170,7 +170,7 @@ header {
 
 /* Contact Section */
 .contact {
-  padding: 100px 20px; /* Add space at the top to clear the header */
+  padding: 150px 20px 50px; /* Add space at the top to clear the header */
   text-align: center;
   background-color: #1f1f1f;
   min-height: 100vh;
@@ -180,6 +180,7 @@ header {
     position: relative;
     width: 100%;
     height: 300px;
+    padding: 150px 20px 50px; /* Add space at the top to clear the header */
     background-image: url('images/contact-hero.png'); /* Ensure this path is correct */
     background-size: cover;
     background-position: center;
