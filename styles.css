@@ -125,6 +125,7 @@ header {
 
 /* Project Card Styles */
 .project {
+    padding: 150px 20px 50px; /* Add space at the top to clear the header */
     display: flex;
     align-items: center;
     background-color: #1f1f1f;
