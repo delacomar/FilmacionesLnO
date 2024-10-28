@@ -96,6 +96,9 @@ header {
     text-decoration: none;
     border-radius: 5px;
     font-size: 18px;
+    display: inline-flex; /* Aligns icon and text */
+    align-items: center;
+    gap: 10px; /* Space between icon and text */
     transition: background-color 0.3s ease;
 }
 
