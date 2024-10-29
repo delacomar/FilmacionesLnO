@@ -170,26 +170,25 @@ header {
 
 /* Contact Section */
 .contact {
-  padding: 150px 20px 50px; /* Add space at the top to clear the header */
+  padding: 50px 20px 50px; /* Add space at the top to clear the header */
   text-align: center;
   background-color: #1f1f1f;
   min-height: 100vh;
 }
 /* Hero Section for Contact Page */
 .hero-contact {
-    margin-top: 80px; /* Adjust this value to match the height of your header */
     position: relative;
-    width: 100%;
-    height: 300px;
+    height: 100vh;
+    overflow: visible;
+    display: flex;
+    align-items: center; /* Vertically centers the content */
+    justify-content: center; /* Horizontally centers the content */
+    text-align: center;
+    padding: 20px;
     background-image: url('images/contact-hero.png');
+    /*background-attachment: fixed;*/
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: #ffffff;
 }
 
     .hero-contact h2 {
@@ -211,11 +210,8 @@ header {
 }
 
 .contact-form {
-    /*  max-width: 400px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;*/
+    /*  max-width: 400px;*/
+
     padding: 50px 20px;
     max-width: 800px;
     margin: 0 auto;
