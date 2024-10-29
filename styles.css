@@ -178,7 +178,7 @@ header {
 /* Hero Section for Contact Page */
 .hero-contact {
     position: relative;
-    height: 100vh;
+    height: 80vh;
     overflow: visible;
     display: flex;
     align-items: center; /* Vertically centers the content */
